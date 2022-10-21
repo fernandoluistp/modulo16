@@ -1,3 +1,7 @@
+@import url('../fontawesome/css/fontawesome.min.css');
+@import url('../fontawesome/css/solid.min.css');
+@import url('../fontawesome/css/brands.min.css');
+
 :root{
   --azul: #0982de;
   --dourado: #cea263;
@@ -66,6 +70,10 @@
     background: #ff6000f0;
     height: 95%;
 
+}
+
+.fundoazul{
+    background: #0084fff0!important;
 }
 
 .carousel-caption > p{
@@ -446,6 +454,159 @@ footer{
     box-shadow: 0px -7px 30px -15px #000000;
 }
 
+/* Internas */
+
+.internas-design-introducao {
+    background-color: #ffffffcc;
+    border-radius: 1rem;
+    /*padding: 2rem 4rem;*/
+    margin-bottom: 2rem;
+    display: flex;
+    box-shadow: 0rem 10px 18px -17px rgb(0 0 1 / 30%);
+}
+
+
+.internas-design-introducao p {
+    font-weight: 600;
+    font-size: 1.0em;
+    line-height: 1.0rem;
+}
+
+.internas-main article h1 {
+    font-size: 4rem;
+    letter-spacing: -0.2rem;
+    line-height: 4rem;
+    font-weight: 700;
+    color: #0982de;
+}
+
+.internas-main h2 {
+    color: #0982de;
+    font-size: 3rem;
+    letter-spacing: -0.15rem;
+    font-weight: 700;
+}
+
+.internas-main h3{
+    font-size: 2rem;
+    letter-spacing: -0.05rem;
+    flex-basis: 100%;
+    font-weight: 700;
+    color: var(--laranja);
+}
+
+.titulo-menor {
+    font-size: 1.2rem;
+    color: #777777;
+    font-weight: 600;
+    letter-spacing: initial;
+    display: block;
+    height: auto;
+    line-height: normal;
+}
+
+
+.internas-design-conteudo{
+    background-color: #ffffffcc;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+    margin-bottom: 6rem;
+    box-shadow: 0rem 10px 18px -17px rgb(0 0 1 / 30%);
+}
+
+.internas-design-conteudo p{
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+.formulario-card {
+    background-color: #ffffffcc;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0rem 10px 18px -17px rgb(0 0 1 / 30%);
+}
+
+.link-whatsapp{
+    background: #289d39;
+    display: inline-block;
+    padding: 0.4rem;
+    color: white;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+.link-whatsapp img{
+    height: 1.6rem;
+}
+/* Menu de navegação lateral - páginas internas */ 
+
+
+nav.lateral ul {
+  list-style-type: none;
+  padding: 1rem;
+  border-radius: 0rem 1rem 1rem 0rem;
+  margin: 1.4rem 0;
+}
+nav.lateral li {
+	padding-top: 10px;
+    padding-bottom: 10px;
+	/*padding-left: 10px;*/
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 1.1rem;
+	box-shadow: 0 4px 8px -7px rgb(0 0 0 / 40%);
+	font-weight: 600;
+	display: flex;
+}
+nav.lateral h3{
+	color: #ffffff;
+}
+nav.lateral ul.menu-lateral {
+	background-color: #0982de;
+	/*box-shadow: 0 4px 11px -8px rgb(0 0 0 / 95%);*/
+	/*border: 1px solid #496bc1;*/
+}
+nav.lateral ul.contatos{
+	background-color: #ff6000;
+	/*box-shadow: 0 4px 11px -8px rgb(0 0 0 / 95%);
+	border: 1px solid #3aaec9;*/
+}
+.icone-container{
+	width: 15px;
+	display: flex;
+	/*margin-right: 3rem;*/
+}
+.icone-menu-lateral{
+	width: auto;
+	height: 100%;
+	min-width: 1rem;
+}
+
+/* Menu de navegação lateral - Pseudo-classes */
+
+nav.lateral li:hover {
+	background-color: rgba(255, 255, 255, 0.1);
+}
+
+nav.lateral ul li a {
+	color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /*padding-right: 10%;*/
+}
+
+nav.lateral ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav.lateral ul li a:visited {
+    color: #ffffffaa;
+}
 
 @media (min-width: 992px) {
 

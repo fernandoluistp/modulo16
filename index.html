@@ -18,22 +18,30 @@
 </head>
 <body>
   <div class="container-fluid fundo p-0">
-      <nav class="navbar navbar-expand-lg nav-custom p-0">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./images/logo.svg" class="logo d-inline-block align-text-top"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-md-5 me-auto">
-                <li class="nav-item mx-3"><a class="nav-link active" href="#apresentacao">Por onde começar?</a></li>
-                <li class="nav-item mx-3"><a class="nav-link" href="#design-code">Design</a></li>
-                <li class="nav-item mx-3"><a class="nav-link" href="#softwares">Softwares</a></li>
-                <li class="nav-item mx-3"><a class="nav-link" href="#linguagens">Linguagens</a></li>
-                <li class="nav-item mx-3"><a class="nav-link" href="#contato">Quero conversar!</a></li>
-            </ul>
-        </div>
-      </nav>
+    <nav class="navbar navbar-expand-lg nav-custom p-0">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="./images/logo.svg" class="logo d-inline-block align-text-top"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-md-5 mt-md-5 mt-lg-0 me-auto">
+            <li class="nav-item mx-3 dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-house"></i> Início
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="index.html#apresentacao"><i class="fa-solid fa-eye"></i> Por onde começar?</a></li>
+                  <li><a class="dropdown-item" href="index.html#design-code"><i class="fa-solid fa-pen-nib"></i> Design</a></li>
+                  <li><a class="dropdown-item" href="index.html#softwares"><i class="fa-solid fa-photo-film"></i> Softwares</a></li>
+                  <li><a class="dropdown-item" href="index.html#linguagens"><i class="fa-solid fa-file-code"></i> Linguagens</a></li>
+                </ul>
+              </li>
+              <li class="nav-item mx-3"><a class="nav-link" href="design.html"><i class="fa-regular fa-image"></i> Portfolio</a></li>
+              <li class="nav-item mx-3"><a class="nav-link" href="contato.html"><i class="fa-solid fa-comment"></i> Quero conversar!</a></li>
+          </ul>
+      </div>
+    </nav>
 
     <div class="container-fluid">
       <section id="banner" class="row">
@@ -55,6 +63,20 @@
                  
                   <div class="carousel-caption d-block">
                       <h3 class="display-1">olá_</h3>
+                      <p class="mt-0 mx-0 p-3 mt-lg-3 mx-lg-2 p-lg-0">seja <strong>bem-vindo</strong><br>ao meu <strong>portfólio digital</strong></p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <picture>
+                   <!-- <source media="(max-width: 350px)" srcset="./images/banner-350.jpg">
+                    <source media="(max-width: 425px)" srcset="./images/banner-425.jpg">-->
+                    <source media="(max-width: 768px)" srcset="./images/banner-02-mobile.jpg">
+                    <source media="(max-width: 992px)" srcset="./images/banner-02-992.jpg">
+                    <img src="./images/banner-02.jpg" class="d-block w-100" alt="Portfólio Fernando Penachin - Banner Inicial">
+                  </picture>
+                 
+                  <div class="carousel-caption d-block">
+                      <h3 class="display-1 fundoazul">olá_</h3>
                       <p class="mt-0 mx-0 p-3 mt-lg-3 mx-lg-2 p-lg-0">seja <strong>bem-vindo</strong><br>ao meu <strong>portfólio digital</strong></p>
                   </div>
                 </div>
